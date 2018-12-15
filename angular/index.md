@@ -44,6 +44,7 @@ ng generate service hero
 * 模块：NgModule
 * 组件：Component
 * 服务：Service
+* 路由：Routing
 
 _NgModule_
 
