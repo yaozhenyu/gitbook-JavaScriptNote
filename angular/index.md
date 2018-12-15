@@ -26,7 +26,9 @@ ng serve --open
 **generate命令**
 
 ```bash
-# 
+# 创建一个名叫app-routing的模块
+# --flat 把这个文件放进了 src/app 中，而不是单独的目录中。
+# --module=app 告诉 CLI 把它注册到 AppModule 的 imports 数组中。
 ng generate module app-routing --flat --module=app
 
 # 创建一个叫heroes的组件
