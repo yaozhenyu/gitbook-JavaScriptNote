@@ -16,3 +16,9 @@ ng new project-name
 
 **serve命令**
 
+```bash
+ng serve --open
+```
+
+
+
