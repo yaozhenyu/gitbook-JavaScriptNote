@@ -43,6 +43,7 @@ ng generate service hero
 
 * 模块：NgModule
 * 组件：Component
+* 服务：Service
 
 _NgModule_
 
