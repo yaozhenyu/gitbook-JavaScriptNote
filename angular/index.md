@@ -41,9 +41,11 @@ ng generate service hero
 
 ## 重要概念
 
-### Mudal
+* NgModule
+* 
 
 
+_NgModule_
 
 
 
