@@ -41,11 +41,8 @@ ng generate service hero
 
 ## 重要概念
 
-* NgModule
-* 
-
+* 模块：NgModule
+* 组件：Component
 
 _NgModule_
-
-
 
