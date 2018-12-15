@@ -29,6 +29,8 @@ ng serve --open
 # 创建一个叫heroes的组件
 ng generate component heroes
 
+# 创建一个叫hero的服务
+ng generate service hero
 ```
 
 
