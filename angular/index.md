@@ -26,6 +26,7 @@ ng serve --open
 **generate命令**
 
 ```bash
+# 创建一个叫heroes的组件
 ng generate component heroes
 ```
 
