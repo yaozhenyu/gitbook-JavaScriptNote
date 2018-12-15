@@ -11,6 +11,7 @@ npm install -g @angular/cli
 **new命令**
 
 ```bash
+# 新建一个叫project-name的项目
 ng new project-name
 ```
 
