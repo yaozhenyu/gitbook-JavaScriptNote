@@ -25,3 +25,9 @@ ng serve --open
 
 **generate命令**
 
+```bash
+ng generate component heroes
+```
+
+
+
