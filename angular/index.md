@@ -39,5 +39,11 @@ ng generate component heroes
 ng generate service hero
 ```
 
+## 重要概念
+
+### Mudal
+
+
+
 
 
