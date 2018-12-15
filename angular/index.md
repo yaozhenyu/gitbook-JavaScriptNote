@@ -8,7 +8,7 @@
 npm install -g @angular/cli
 ```
 
-**new 命令**
+**new命令**
 
 ```bash
 ng new project-name
