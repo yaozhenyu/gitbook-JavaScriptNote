@@ -18,6 +18,7 @@ ng new project-name
 
 ```bash
 ng serve --open
+## --open参数表示打开浏览器
 ```
 
 
