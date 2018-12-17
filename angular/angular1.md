@@ -17,32 +17,21 @@
 7、定义一个服务 来传 值:
 
 ```JavaScript
-var test2 = 'tank';         //方法1，定义全局变量  
+var test2 = 'tank';         //方法1，定义全局变量  
 
-   
+var app = angular.module('app', [  
 
-var app = angular.module('app', [  
+  'ngRoute',  
 
-  'ngRoute',  
+  'phonecatControllers',  
 
-  'phonecatControllers',  
+  'tanktest'  
 
-  'tanktest'  
+]);  
 
-]);  
+app .value('test',{"test":"test222","test1":"test111"});  //方法2定义全局变量  
+app .constant('constanttest', 'this is constanttest');    //方法3定义全局变量  
 
-   
-
-app .value('test',{"test":"test222","test1":"test111"});  //方法2定义全局变量  
-
-   
-
-app .constant('constanttest', 'this is constanttest');    //方法3定义全局变量  
---------------------- 
-作者：爬虫仔蛙 
-来源：CSDN 
-原文：https://blog.csdn.net/p656456564545/article/details/50359720 
-版权声明：本文为博主原创文章，转载请附上博文链接！
 ```
 
 
