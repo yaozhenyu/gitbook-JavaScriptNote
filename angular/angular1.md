@@ -37,8 +37,7 @@ app .constant('constanttest', 'this is constanttest');    //方法3定义全局�
 
 ```JavaScript
 // 第一个参数:模块名，第二个参数：引入其他模块
-angular.module("app",[module1,module2]);
-
+var app = angular.module("app",[module1,module2]);
 ```
 
 
