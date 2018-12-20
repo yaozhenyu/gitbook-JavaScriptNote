@@ -43,7 +43,7 @@ var app = angular.module("app",[module1,module2]);
 ## 创建一个controller
 
 ```JavaScript
-app.controller("controller_name",function($scope, $localStorage, $stateParams, toaster, service_name){
+app.controller("controller_name",function($scope){
 
 });
 ```
