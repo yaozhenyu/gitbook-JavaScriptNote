@@ -40,5 +40,13 @@ app .constant('constanttest', 'this is constanttest');    //方法3定义全局�
 var app = angular.module("app",[module1,module2]);
 ```
 
+## 创建一个controller
+
+```JavaScript
+app.controller("",function(){
+
+});
+```
+
 
 
