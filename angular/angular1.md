@@ -33,5 +33,13 @@ app .value('test',{"test":"test222","test1":"test111"});  //方法2定义全局�
 app .constant('constanttest', 'this is constanttest');    //方法3定义全局变量
 ```
 
+## 创建一个module
+
+```JavaScript
+// 第一个参数:模块名，第二个参数：引入其他模块
+angular.module("app",[module1,module2]);
+
+```
+
 
 
