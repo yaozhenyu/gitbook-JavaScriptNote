@@ -44,7 +44,7 @@ var app = angular.module("app",[module1,module2]);
 
 ```JavaScript
 app.controller("controller_name",function($scope){
-
+    $scope.var1 = {};
 });
 ```
 
