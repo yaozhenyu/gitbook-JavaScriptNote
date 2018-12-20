@@ -2,7 +2,7 @@
 
 ## 全局变量
 
-1，通过var 直接定义global variable，这根纯js是一样的。
+1，通过var 直接定义global variable，这跟纯js是一样的。
 
 2，用angularjs value来设置全局变量 。
 
@@ -30,8 +30,7 @@ var app = angular.module('app', [
 ]);  
 
 app .value('test',{"test":"test222","test1":"test111"});  //方法2定义全局变量  
-app .constant('constanttest', 'this is constanttest');    //方法3定义全局变量  
-
+app .constant('constanttest', 'this is constanttest');    //方法3定义全局变量
 ```
 
 
