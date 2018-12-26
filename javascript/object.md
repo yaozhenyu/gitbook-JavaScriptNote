@@ -26,7 +26,7 @@ Object.defineProperty(a,"z",{
     value: 6,
 });
 
-// 获取对象a的属性"z" 结果
+// 获取对象a的属性"z" 结果为
 /*
 { value: 6,
   writable: false,
@@ -35,7 +35,6 @@ Object.defineProperty(a,"z",{
 }
 /*
 console.log(Object.getOwnPropertyDescriptor(a,"z"));
-
 ```
 
 
