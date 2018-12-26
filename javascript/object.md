@@ -1,8 +1,8 @@
 # Object
 
- 所有对象继承自Object类
+所有对象继承自Object类
 
-##  Object方法
+## Object内置方法
 
 * Object.defineProperty
 * Object.getOwnPropertyDescriptor
