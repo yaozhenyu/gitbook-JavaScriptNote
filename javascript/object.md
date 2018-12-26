@@ -48,6 +48,13 @@ console.log(a.z) // 调用get方法获取值，结果为3
 // 对象a定义了一个属性z
 
 console.log(Object.getOwnPropertyDescriptor(a,"z"));
+/*
+{ get: [Function: get z],
+  set: [Function: set z],
+  enumerable: true,
+  configurable: true 
+}
+*/
 ```
 
 
