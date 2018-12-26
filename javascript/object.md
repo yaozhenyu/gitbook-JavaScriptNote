@@ -46,6 +46,8 @@ var a = {
 a.z = 8; // 不能赋值了
 console.log(a.z) // 调用get方法获取值，结果为3
 // 对象a定义了一个属性z
+
+console.log(Object.getOwnPropertyDescriptor(a,"z"));
 ```
 
 
