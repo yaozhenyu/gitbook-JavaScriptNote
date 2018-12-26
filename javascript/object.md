@@ -32,6 +32,7 @@ console.log(Object.getOwnPropertyDescriptor(a,"z"));
 **setter/getter**
 
 ```JavaScript
+// 对象a定义了一个属性z
 var a = {
     x: 1,
     y:2,
@@ -45,16 +46,14 @@ var a = {
 
 a.z = 8; // 不能赋值了
 console.log(a.z) // 调用get方法获取值，结果为3
-// 对象a定义了一个属性z
-
-console.log(Object.getOwnPropertyDescriptor(a,"z"));
-/*
+/* 结果：
 { get: [Function: get z],
   set: [Function: set z],
   enumerable: true,
   configurable: true 
 }
 */
+console.log(Object.getOwnPropertyDescriptor(a,"z"));
 ```
 
 
