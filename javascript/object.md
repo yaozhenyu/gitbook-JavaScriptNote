@@ -44,7 +44,7 @@ var a = {
 };
 
 a.z = 8;
-console.log(a.z) // 结果为3，调用get方法获取值
+console.log(a.z) // 调用get方法获取值，结果为3
 // 对象a定义了一个属性z
 ```
 
