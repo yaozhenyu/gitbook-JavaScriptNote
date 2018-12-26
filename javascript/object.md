@@ -21,10 +21,12 @@ var a = {
     // }
 };
 
+//为对象a定义一个属性 "z"
 Object.defineProperty(a,"z",{
     value: 6,
 });
-// console.log(a.z);
+
+// 获取对象a的属性"z"
 console.log(Object.getOwnPropertyDescriptor(a,"z"));
 ```
 
