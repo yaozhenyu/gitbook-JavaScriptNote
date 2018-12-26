@@ -31,3 +31,24 @@ console.log(Object.getOwnPropertyDescriptor(a,"z"));
 
 
 
+**setter/getter**
+
+```JavaScript
+var a = {
+	x: 1,
+	y:2,
+
+	set z(o){
+		this.x = o.x;
+		this.y = o.y;
+	},
+	get z(){
+		return this.x+this.y
+	}
+};
+
+// 对象a定义了一个属性z
+```
+
+
+
