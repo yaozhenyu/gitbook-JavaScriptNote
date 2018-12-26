@@ -26,8 +26,16 @@ Object.defineProperty(a,"z",{
     value: 6,
 });
 
-// 获取对象a的属性"z"
+// 获取对象a的属性"z" 结果
+/*
+{ value: 6,
+  writable: false,
+  enumerable: true,
+  configurable: true 
+}
+/*
 console.log(Object.getOwnPropertyDescriptor(a,"z"));
+
 ```
 
 
