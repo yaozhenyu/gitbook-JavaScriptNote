@@ -5,6 +5,7 @@
 * [创建对象的三种方法](#创建对象的三种方法)
 * [Object内置属性](#object内置属性)
 * [Object内置方法](#object内置方法)
+* [setter/getter](#settergetter)
 
 ## 创建对象的三种方法
 
@@ -96,7 +97,7 @@ Object.defineProperty(a,"z",{
 console.log(Object.getOwnPropertyDescriptor(a,"z"));
 ```
 
-**setter/getter**
+## **setter/getter**
 
 ```JavaScript
 // 对象a定义了一个属性z
