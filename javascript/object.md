@@ -41,6 +41,7 @@ var o2 = Object.create(o1);
 * Object.getOwnPropertyDescriptor
 * Object.create
 * Object.getPrototypeOf
+* Object.assign
 
 ```JavaScript
 var a = {
