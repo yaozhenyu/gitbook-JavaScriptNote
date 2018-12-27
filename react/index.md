@@ -16,16 +16,13 @@ npx create-react-app myapp
 ## JSX语法
 
 ```JavaScript
+ReactDOM.render(
+  <h1>Hello, world!</h1>,
+  document.getElementById('root')
+);
+
 // 把html代码当作一个对象，并作为结果返回
-class HelloMessage extends React.Component {
-  render() {
-    return (
-      <div>
-        Hello {this.props.name}
-      </div>
-    );
-  }
-}
+
 
 // 将HelloMessage函数返回的html代码挂载到id=root的dom对象下
 ReactDOM.render(
@@ -39,7 +36,19 @@ ReactDOM.render(
 props是指组件的所有属性
 
 ```JavaScript
-// 继承React.Component，上面的例子是ES6写法,下面是ES5写法
+// ES6写法
+class HelloMessage extends React.Component {
+  render() {
+    return (
+      <div>
+        Hello {this.props.name}
+      </div>
+    );
+  }
+}
+
+
+// 是ES5写法
 var HelloMessage = React.createClass({
     rende:function(){
         return (
