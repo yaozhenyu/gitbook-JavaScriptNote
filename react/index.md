@@ -38,7 +38,7 @@ ReactDOM.render(
 
 ```JavaScript
 // 继承React.Component，上面的例子是ES6写法
-React.createClass({
+var HelloMessage = React.createClass({
     rende:function(){
         return (
             <div>
