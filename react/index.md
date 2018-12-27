@@ -48,7 +48,7 @@ class HelloMessage extends React.Component {
 }
 
 
-// 是ES5写法
+// ES5写法
 var HelloMessage = React.createClass({
     rende:function(){
         return (
