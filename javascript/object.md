@@ -60,7 +60,8 @@ console.log(b.prototype); // 结果：undefined
 
 2、原型 propertype
 
-* ## Object内置方法
+## Object内置方法
+
 * Object.defineProperty
 
 * Object.getOwnPropertyDescriptor
@@ -68,6 +69,7 @@ console.log(b.prototype); // 结果：undefined
 * Object.create
 
 * Object.getPrototypeOf
+
 * Object.assign
 
 ```JavaScript
