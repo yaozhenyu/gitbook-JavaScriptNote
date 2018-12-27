@@ -31,18 +31,14 @@ props是指组件的所有属性
 
 ```JavaScript
 // ES5写法
-function HelloMessage (props) {
+function Welcome (props) {
   return <h1>Hello, {props.name}</h1>;
 }
 
 // ES6写法
-class HelloMessage extends React.Component {
+class Welcome extends React.Component {
   render() {
-    return (
-      <div>
-        Hello {this.props.name}
-      </div>
-    );
+    return <h1>Hello, {this.props.name}</h1>;
   }
 }
 
