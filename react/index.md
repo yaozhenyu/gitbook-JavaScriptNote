@@ -50,7 +50,5 @@ ReactDOM.render(
 );
 ```
 
-## Props
-
 
 
