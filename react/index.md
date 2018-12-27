@@ -44,7 +44,7 @@ class Welcome extends React.Component {
 
 // 把<div>里的内容挂载到id="root"的dom中
 ReactDOM.render(
-  <HelloMessage name="Taylor" />,
+  <Welcome name="Taylor" />,
   document.getElementById("root")
 );
 ```
