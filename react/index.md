@@ -4,7 +4,7 @@
 
 * [命令行工具](#命令行工具)
 * [JSX语法](#jsx语法)
-* 组件 - Component
+* [组件 - Component](#组件)
 
 ## 命令行工具
 
@@ -34,7 +34,11 @@ ReactDOM.render(
 );
 ```
 
-##  组件
+## 组件
+
+```JavaScript
+// 继承React.Component
+```
 
 ## render\(\)函数
 
