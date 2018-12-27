@@ -43,10 +43,28 @@ var o2 = Object.create(o1);
 
 * constructor
 * propertype
+
+1、constructor构造函数
+
+```JavaScript
+var a = {x:1,y:2};
+// 结果： [Function: Object]
+console.log(a.constructor);
+
+function B(argument) {
+}
+var b = new B();
+console.log(b.constructor); // 结果： [Function: B]
+console.log(b.prototype); // 结果：undefined
+```
+
+2、原型
+
 * ## Object内置方法
 * Object.defineProperty
 
 * Object.getOwnPropertyDescriptor
+
 * Object.create
 * Object.getPrototypeOf
 * Object.assign
