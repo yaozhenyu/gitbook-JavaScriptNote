@@ -30,8 +30,6 @@ props是指组件的所有属性
 ```
 
 ```JavaScript
-
-
 // ES6写法
 class HelloMessage extends React.Component {
   render() {
