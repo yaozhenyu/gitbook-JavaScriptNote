@@ -15,11 +15,10 @@ var o = {};
 var student = {name:"xiaoming",age:12};
 ```
 
- 二、通过构造函数创建
+二、通过构造函数创建
 
 ```JavaScript
 function Student(){
-
 }
 
 var student = new Student();
