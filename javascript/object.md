@@ -1,6 +1,7 @@
 # Object
 
 ---
+
 [创建对象的三种方法](#2)
 
 所有对象继承自Object类
@@ -11,7 +12,7 @@
 * 通过构造函数创建（使用new function\_name\(\)创建）
 * 通过Object.create\(\)方法创建
 
-一、通过字面量创建对象 {#2}
+一、通过字面量创建对象
 
 ```JavaScript
 var o = {};
