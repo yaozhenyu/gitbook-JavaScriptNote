@@ -30,6 +30,11 @@ props是指组件的所有属性
 ```
 
 ```JavaScript
+// ES5写法
+function HelloMessage (props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+
 // ES6写法
 class HelloMessage extends React.Component {
   render() {
@@ -39,11 +44,6 @@ class HelloMessage extends React.Component {
       </div>
     );
   }
-}
-
-// ES5写法
-function HelloMessage (props) {
-  return <h1>Hello, {props.name}</h1>;
 }
 
 // 把<div>里的内容挂载到id="root"的dom中
