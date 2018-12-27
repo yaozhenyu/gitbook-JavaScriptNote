@@ -56,7 +56,7 @@ ReactDOM.render(
 );
 ```
 
-## render\(\)函数
+
 
 
 
