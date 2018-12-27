@@ -4,6 +4,7 @@
 
 * [命令行工具](#命令行工具)
 * [JSX语法](#jsx语法)
+* 组件 - Component
 
 ## 命令行工具
 
@@ -32,6 +33,8 @@ ReactDOM.render(
   document.getElementById("root")
 );
 ```
+
+##  组件
 
 ## render\(\)函数
 
