@@ -42,7 +42,7 @@ class Welcome extends React.Component {
   }
 }
 
-// 将组件挂载到id="root"的dom下
+// 将组件挂载到id="root"的dom下,将"Sara"传递给组的的props.name属性
 const element = <Welcome name="Sara" />;
 ReactDOM.render(
   element,
