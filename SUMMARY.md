@@ -6,6 +6,6 @@
 * [Angular](/angular/index.md)
   * [Angular 1.x](/angular/angular1.md)
 * [React](/react/index.md)
-  * [Redux](/react/redux.md)
+  * [redux](/react/redux.md)
   * [react-router](/react/react-router.md)
 
