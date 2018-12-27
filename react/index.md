@@ -15,7 +15,7 @@ npx create-react-app myapp
 ## JSX语法
 
 ```JavaScript
-// 把html代码当作一个对象
+// 把html代码当作一个对象，并作为结果返回
 class HelloMessage extends React.Component {
   render() {
     return (
