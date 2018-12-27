@@ -15,13 +15,10 @@ npx create-react-app myapp
 
 ## JSX语法
 
- 把HTML代码当作对象
+把HTML代码当作对象
 
 ```JavaScript
-ReactDOM.render(
-  <h1>Hello, world!</h1>,
-  document.getElementById('root')
-);
+const element = <h1>Hello, world!</h1>;
 ```
 
 ## 组件
