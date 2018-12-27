@@ -97,5 +97,5 @@ console.log(a.z) // 调用get方法获取值，结果为3
 console.log(Object.getOwnPropertyDescriptor(a,"z"));
 ```
 
-nane {#1}
+nane <span id="1"></span>
 
