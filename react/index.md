@@ -21,7 +21,7 @@ npx create-react-app myapp
 const element = <h1>Hello, world!</h1>;
 ```
 
-## 组件
+## 组件&Props
 
 props是指组件的所有属性
 
