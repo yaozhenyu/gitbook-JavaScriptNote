@@ -25,7 +25,13 @@ const element = <h1>Hello, world!</h1>;
 
 props是指组件的所有属性
 
+```HTML
+<div id="root"></div>
+```
+
 ```JavaScript
+
+
 // ES6写法
 class HelloMessage extends React.Component {
   render() {
