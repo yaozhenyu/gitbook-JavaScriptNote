@@ -1,13 +1,8 @@
 # Object
 
----
-导航
-[通过字面量创建对象](#1)
----
-
 所有对象继承自Object类
 
-## 创建对象的三种方法 
+## 创建对象的三种方法 {#1}
 
 * 通过字面量创建
 * 通过构造函数创建（使用new function\_name\(\)创建）
@@ -97,5 +92,5 @@ console.log(a.z) // 调用get方法获取值，结果为3
 console.log(Object.getOwnPropertyDescriptor(a,"z"));
 ```
 
-nane {1}
+
 
