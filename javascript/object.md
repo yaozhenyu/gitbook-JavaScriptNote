@@ -2,6 +2,10 @@
 
 所有对象继承自Object类
 
+
+
+##  创建对象的三种方法
+
 ## Object内置方法
 
 * Object.defineProperty
