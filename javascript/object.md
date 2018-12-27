@@ -2,10 +2,10 @@
 
 ---
 
-* [创建对象的三种方法](#1)
-* [Object内置方法](#2)
+* [创建对象的三种方法]
+* [Object内置方法]
 
-## 创建对象的三种方法 {#1}
+## 创建对象的三种方法
 
 * 通过字面量创建
 * 通过构造函数创建（使用new function\_name\(\)创建）
@@ -38,7 +38,7 @@ var o1 = {name:"zhang3",age:20};
 var o2 = Object.create(o1);
 ```
 
-## Object内置方法 {#2}
+## Object内置方法
 
 * Object.defineProperty
 * Object.getOwnPropertyDescriptor
