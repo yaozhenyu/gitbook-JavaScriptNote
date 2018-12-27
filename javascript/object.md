@@ -72,6 +72,8 @@ console.log(b.prototype); // 结果：undefined
 
 * Object.assign
 
+* Object.toString
+
 ```JavaScript
 var a = {
     x: 1,
