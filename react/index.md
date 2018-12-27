@@ -59,7 +59,7 @@ ReactDOM.render(
 );
 ```
 
-##  组件里使用变量
+##  Props
 
 
 
