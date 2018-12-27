@@ -36,7 +36,7 @@ ReactDOM.render(
 
 ## 组件
 
-props是指组件的属性
+props是指组件的所有属性
 
 ```JavaScript
 // 继承React.Component，上面的例子是ES6写法,下面是ES5写法
