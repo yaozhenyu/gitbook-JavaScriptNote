@@ -39,6 +39,11 @@ var o1 = {name:"zhang3",age:20};
 var o2 = Object.create(o1);
 ```
 
+##  Object内置属性
+
+* constructor
+* propertype
+* 
 ## Object内置方法
 
 * Object.defineProperty
