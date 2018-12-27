@@ -24,7 +24,7 @@ function Student(){
 var student = new Student();
 ```
 
- 三、通过Object.create\(\)方法创建
+三、通过Object.create\(\)方法创建
 
 ```JavaScript
 // 以匿名对象{}为原型创建一个对象
@@ -35,14 +35,12 @@ var o1 = {name:"zhang3",age:20};
 var o2 = Object.create(o1);
 ```
 
-
-
-
-
 ## Object内置方法
 
 * Object.defineProperty
 * Object.getOwnPropertyDescriptor
+* Object.create
+* Object.getPrototypeOf
 
 ```JavaScript
 var a = {
