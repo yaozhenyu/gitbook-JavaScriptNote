@@ -14,5 +14,20 @@ npm install axios
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 ```
 
+##  使用
+
+```JavaScript
+axios({
+  method: 'post',
+  url: '/user/12345',
+  data: {
+    firstName: 'Fred',
+    lastName: 'Flintstone'
+  }
+});
+
+
+```
+
 
 
