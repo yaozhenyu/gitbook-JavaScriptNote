@@ -47,6 +47,11 @@ var HelloMessage = React.createClass({
         );
     }
 });
+
+ReactDOM.render(
+  <HelloMessage name="Taylor" />,
+  document.getElementById("root")
+);
 ```
 
 ## render\(\)函数
