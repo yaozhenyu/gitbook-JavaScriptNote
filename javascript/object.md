@@ -3,7 +3,7 @@
 ---
 
 * [创建对象的三种方法](#创建对象的三种方法)
-* Object内置属性
+* [Object内置属性](#object内置属性)
 * [Object内置方法](#object内置方法)
 
 ## 创建对象的三种方法
@@ -39,14 +39,13 @@ var o1 = {name:"zhang3",age:20};
 var o2 = Object.create(o1);
 ```
 
-##  Object内置属性
+## Object内置属性
 
 * constructor
 * propertype
-* 
-## Object内置方法
-
+* ## Object内置方法
 * Object.defineProperty
+
 * Object.getOwnPropertyDescriptor
 * Object.create
 * Object.getPrototypeOf
