@@ -15,19 +15,12 @@ npx create-react-app myapp
 
 ## JSX语法
 
+ 把HTML代码当作对象
+
 ```JavaScript
 ReactDOM.render(
   <h1>Hello, world!</h1>,
   document.getElementById('root')
-);
-
-// 把html代码当作一个对象，并作为结果返回
-
-
-// 将HelloMessage函数返回的html代码挂载到id=root的dom对象下
-ReactDOM.render(
-  <HelloMessage name="Taylor" />,
-  document.getElementById("root")
 );
 ```
 
