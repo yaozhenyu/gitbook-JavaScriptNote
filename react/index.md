@@ -41,7 +41,7 @@ ReactDOM.render(
 function HelloMessage(){
     constructor: function(props){
         this.props = props;
-    }
+    },
     rende:function(){
         return (
             <div>
