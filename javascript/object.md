@@ -2,9 +2,18 @@
 
 所有对象继承自Object类
 
+## 创建对象的三种方法
 
+* 通过字面量创建
+* 通过构造函数创建（使用new function\_name\(\)创建）
+* 通过Object.create\(\)方法创建
 
-##  创建对象的三种方法
+一、通过字面量创建对象
+
+```JavaScript
+var o = {};
+var student = {name:"xiaoming",age:12};
+```
 
 ## Object内置方法
 
