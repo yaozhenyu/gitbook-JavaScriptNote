@@ -52,6 +52,7 @@ var HelloMessage = React.createClass({
     }
 });
 
+// 把<div>里的内容挂载到id="root"的dom中
 ReactDOM.render(
   <HelloMessage name="Taylor" />,
   document.getElementById("root")
