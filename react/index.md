@@ -39,6 +39,9 @@ ReactDOM.render(
 ```JavaScript
 // 继承React.Component，上面的例子是ES6写法
 function HelloMessage(){
+    constructor: function(props){
+        this.props = props;
+    }
     rende:function(){
         return (
             <div>
