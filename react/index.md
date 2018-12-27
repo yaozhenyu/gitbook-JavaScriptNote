@@ -42,15 +42,9 @@ class HelloMessage extends React.Component {
 }
 
 // ES5写法
-var HelloMessage = React.createClass({
-    rende:function(){
-        return (
-            <div>
-                Hello {this.props.name}
-            </div>
-        );
-    }
-});
+function HelloMessage (props) {
+  return <h1>Hello, {props.name}</h1>;
+}
 
 // 把<div>里的内容挂载到id="root"的dom中
 ReactDOM.render(
@@ -59,7 +53,7 @@ ReactDOM.render(
 );
 ```
 
-##  Props
+## Props
 
 
 
