@@ -44,7 +44,7 @@ var o2 = Object.create(o1);
 * constructor
 * propertype
 
-1、constructor构造函数
+1、构造函数 constructor
 
 ```JavaScript
 var a = {x:1,y:2};
@@ -58,7 +58,7 @@ console.log(b.constructor); // 结果： [Function: B]
 console.log(b.prototype); // 结果：undefined
 ```
 
-2、原型
+2、原型 propertype
 
 * ## Object内置方法
 * Object.defineProperty
@@ -66,6 +66,7 @@ console.log(b.prototype); // 结果：undefined
 * Object.getOwnPropertyDescriptor
 
 * Object.create
+
 * Object.getPrototypeOf
 * Object.assign
 
