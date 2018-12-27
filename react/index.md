@@ -26,7 +26,7 @@ class HelloMessage extends React.Component {
   }
 }
 
-// 
+// 将HelloMessage函数返回的html代码挂载到id=root的dom对象下
 ReactDOM.render(
   <HelloMessage name="Taylor" />,
   document.getElementById("root")
