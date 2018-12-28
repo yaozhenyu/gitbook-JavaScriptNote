@@ -2,7 +2,11 @@
 
 ---
 
- 示例
+
+
+
+
+示例
 
 ```JavaScript
 import { createStore } from 'redux';
