@@ -2,7 +2,7 @@
 
 ---
 
-##  引入
+## 引入
 
 ```
 npm install --save redux
@@ -10,13 +10,11 @@ npm install --save redux
 <script src=""></script>
 ```
 
-
-
 示例
 
 ```JavaScript
 import { createStore } from 'redux';
-// 浏览器中可以直接用下面的语句
+// 现代浏览器中可以直接用下面的语句
 // const {createStore} = Redux;
 
 /**
