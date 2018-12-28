@@ -2,7 +2,13 @@
 
 ---
 
+##  引入
 
+```
+npm install --save redux
+
+<script src=""></script>
+```
 
 
 
@@ -10,6 +16,8 @@
 
 ```JavaScript
 import { createStore } from 'redux';
+// 浏览器中可以直接用下面的语句
+// const {createStore} = Redux;
 
 /**
  * 这是一个 reducer，形式为 (state, action) => state 的纯函数。
