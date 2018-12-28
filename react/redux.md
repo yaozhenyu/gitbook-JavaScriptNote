@@ -7,7 +7,7 @@
 ```
 npm install --save redux
 
-<script src=""></script>
+<script src="redux.js"></script>
 ```
 
 示例
