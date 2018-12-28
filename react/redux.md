@@ -10,7 +10,7 @@ npm install --save redux
 <script src="redux.js"></script>
 ```
 
-示例
+## 示例
 
 ```JavaScript
 import { createStore } from 'redux';
